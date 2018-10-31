@@ -1,0 +1,1 @@
+protoc -I pb/ --go_out=plugins=grpc:pb/ pb/device.proto
